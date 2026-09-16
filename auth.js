@@ -5,7 +5,7 @@
  * @returns {boolean} - Trả về true nếu hợp lệ, ngược lại false
  */
 function login(username, password) {
-    if (username === 'admin' && password === '1234') {
+    if (username === 'admin' && password === '123') {
         return true;
     }
     return false;
